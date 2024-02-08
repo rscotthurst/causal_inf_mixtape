@@ -1,0 +1,12 @@
+name: causal_inf_mixtape
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - statsmodels
+  - jupyterlab
+  - notebook
+  - pip:
+    - plotnine
