@@ -8,5 +8,8 @@ dependencies:
   - statsmodels
   - jupyterlab
   - notebook
+  - conda-forge::r-essentials
+  - conda-forge::r-estimatr
+  - conda-forge::r-plm
   - pip:
     - plotnine
