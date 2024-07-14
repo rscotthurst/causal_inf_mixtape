@@ -1,6 +1,13 @@
+# NOTE: This environment will not work with an ARM-based Mac, run the following commands:
+#    conda create -n causal_inf_mixtape
+#    conda activate causal_inf_mixtape
+#    conda config --env --set subdir osx-64
+#    conda env update -f environment.yml
+
 name: causal_inf_mixtape
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.11
   - pip
